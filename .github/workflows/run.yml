@@ -2,8 +2,9 @@ name: Run scraper
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * *'  # Run every day at 00:00
+  # TODO 一時的にOFF
+  # schedule:
+  #   - cron: '0 0 * * *'  # Run every day at 00:00
 
 
 jobs:
